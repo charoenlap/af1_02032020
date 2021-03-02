@@ -1,0 +1,234 @@
+/*SWEET ALERT*/
+.sweet-alert {
+  background-color: rgba(0,0,0,0) !important;
+}
+.sweet-alert .sa-icon.sa-custom {
+  width: 100% !important;
+  height: 200px !important;
+}
+
+/*CHECKBOX.*/
+.checkbox-custom label::before {
+  border: 1px solid #9E9E9E !important;
+}
+
+/***CUSTOM PANEL*/
+.page-content {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+}
+/*CUSTOM***/
+
+/***RESPONSIVE DATATABLE*/
+@media screen and (max-width: 640px) {
+    .dataTables_length {
+        float: left !important;
+    }
+    .dataTables_filter {
+        float: left !important;
+    }
+}
+table {
+    table-layout:fixed;
+}
+table td {
+    word-wrap:break-word;
+}
+
+/*FONT***/
+.mw-font-underline {
+  text-decoration: underline;
+}
+.mw-cursor-pointer {
+  cursor: pointer;
+}
+
+/*PEARL WIZARD TIMELINE*/
+.pearl-title.current {
+  font-weight: 600;
+  color: #62a8ea;
+}
+
+/*RESPONSIVE DATATABLE***/
+.mw-loader-custom {
+    background: url(../images/theme/ajax-loader-50.gif) no-repeat;
+    width: 50px;
+    height: 50px;
+}
+.mw-text-error {
+    color: #ff0000;
+    font-style: italic;
+    font-size: 12px;
+}
+.mw-center {
+    text-align: center !important;
+}
+.mw-right {
+    text-align: right !important;
+}
+.mw-middle {
+    vertical-align: middle !important;
+}
+.mw-image-border-blue {
+    border: 1px solid #57c7d4;
+}
+
+
+/*COLOR*/
+.mw-white {
+    color: white !important;
+}
+.mw-bg-white {
+    background-color: white !important;
+}
+.mw-black {
+    color: black !important;
+}
+.mw-bg-black {
+    background-color: black !important;
+}
+.mw-grey {
+    color: grey;
+}
+.mw-bg-grey {
+    background-color: #f1f4f5;
+}
+.mw-color-disabled {
+    color: #f3f7f9;
+}
+.mw-bg-disabled {
+    background-color: #f3f7f9;
+}
+.mw-color {
+    color: #DC1414 !important;
+}
+.mw-bg-color {
+    background-color: #DC1414 !important;
+}
+.mw-color-2 {
+    color: #38B7FF !important;
+}
+.mw-bg-color-2 {
+    background-color: #38B7FF !important;
+}
+.mw-hover-color :hover {
+    background-color: #38B7FF !important;
+}
+.mw-box-shadow {
+    box-shadow: 3px 0px 5px rgba(0, 0, 0, .2);
+}
+.mw-menu-active {
+    background-color: #38B7FF !important;
+}
+.mw-menu-active > a {
+}
+.mw-border-color {
+    border: 1px solid #DC1414 !important;
+}
+.mw-border-color-2 {
+    border: 1px solid #38B7FF !important;
+}
+.mw-border-grey {
+    border: 1px solid #E1E4E5 !important;
+}
+.mw-hr {
+    border-top: 2px solid #DC1414;
+}
+.mw-pd-0 {
+    padding: 0 !important;
+}
+.mw-pd-10 {
+    padding: 10px !important;
+}
+.mw-pd-20 {
+    padding: 20px !important;
+}
+.mw-pd-tb-10 {
+    padding: 10px 0;
+}
+.mw-pd-lr-10 {
+    padding: 0 10px;
+}
+.mw-mg-0 {
+    margin: 0 !important;
+}
+.mw-mg-tb-10 {
+    margin: 10px 0 !important;
+}
+.mw-mg-tb-20 {
+    margin: 20px 0 !important;
+}
+.mw-mg-tp-10 {
+    margin-top: 10px !important;
+}
+.mw-mg-tp-20 {
+    margin-top: 20px !important;
+}
+.mw-mg-bm-10 {
+    margin-bottom: 10px !important;
+}
+.mw-mg-bm-20 {
+    margin-bottom: 20px !important;
+}
+.mw-mg-lr-5 {
+    margin: 0 5px !important;
+}
+.mw-mg-lr-10 {
+    margin: 0 10px !important;
+}
+.mw-mg-lr-20 {
+    margin: 0 20px !important;
+}
+.mw-mg-rg-10 {
+    margin-right: 10px !important;
+}
+.mw-mg-10 {
+    margin: 10px !important;
+}
+
+
+/* HEADER ***/
+.navbar-brand .navbar-brand-center .site-gridmenu-toggle {
+    margin-left: 20px;
+}
+.mw-navbar-container {
+     /*background-color: white;*/
+    background: -moz-linear-gradient(left,  rgb(41,41,253) 25%, rgb(23,23,196) 88%);
+    background: -webkit-linear-gradient(left,  rgb(41,41,253) 25%, rgb(23,23,196) 88%);
+    background: linear-gradient(to right,  rgb(41,41,253) 25%, rgb(23,23,196) 88%);
+}
+.navbar-default .navbar-toolbar > li > a {
+    color: white !important;
+}
+.navbar-toolbar .dropdown-menu {
+    background: white !important;
+    color: white !important;
+}
+.mw-header-navbar {
+    background-color: white !important;
+}
+#mw-header-brand {
+    width: 100%;
+    height: 66px;
+}
+.navbar-default .hamburger .hamburger-bar, .navbar-default .hamburger:after, .navbar-default .hamburger:before {
+    background: white !important;
+}
+.mw-site-menubar {
+    z-index: 1600 !important;
+}
+
+
+/*FLOATING BUTTON*/
+.mw-btn-floating-text {
+    margin-top: -5px;
+    font-size: 10px;
+}
+.mw-btn-floating-a {
+    margin-right: -20px;
+    margin-bottom: 0px;
+}
+.mw-btn-floating-b {
+    margin-right: -20px;
+    margin-bottom: 66px;
+}

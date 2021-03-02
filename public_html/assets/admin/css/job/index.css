@@ -1,0 +1,16 @@
+
+.mw-status-new {
+	background-color: #E98F2E;
+}
+.mw-status-inprogress {
+	background-color: #3583CA;
+}
+.mw-status-complete {
+	background-color: #36AB7A;
+}
+.mw-status-fail {
+	background-color: #9E9E9E;
+}
+.mw-status-cancel {
+	background-color: #9E9E9E;
+}
